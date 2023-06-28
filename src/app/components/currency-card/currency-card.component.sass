@@ -1,0 +1,97 @@
+@use '/src/app/utils/variables' as v
+.card
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  background-color: v.$card-background
+  border-radius: 15px
+  width: 350px
+  height: 350px
+  margin: 30px
+  text-align: center
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  overflow: hidden
+
+  .error-div
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    position: relative
+    top: -30%
+
+    p
+      color: v.$text-basic
+      font-weight: 400
+      margin-bottom: 15px
+      font-size: 1.2rem
+
+    button
+      width: 130px
+      height: 38px
+      border: none
+      border-radius: 5px
+      color: v.$text-basic
+      font-weight: 600
+      font-size: 0.8rem
+      cursor: pointer
+      transition: 0.3s
+      background-color: v.$button-background
+    button:hover
+      filter: brightness(0.97)
+    button:active
+      transform: translateY(-2px)
+      filter: brightness(1.05)
+
+  .card-header
+    background-color: v.$card-header-background
+    height: 25%
+    width: 100%
+    display: flex
+    font-weight: 700
+    color: v.$text-basic
+    justify-content: center
+    align-items: center
+
+  .card-body
+    min-height: 50%
+    font-size: 3rem
+    font-weight: 500
+    min-width: 100%
+    display: flex
+    color: v.$text-green
+    justify-content: center
+    align-items: center
+
+  .card-footer
+    display: flex
+    min-height: 25%
+    min-width: 100%
+    font-weight: 600
+    border-top: 1px solid #cccccc42
+    align-items: center
+    justify-content: space-around
+
+    label
+      color: v.$text-secondary
+
+    div
+      display: flex
+      flex-direction: column
+      width: 100%
+      height: 100%
+      align-items: center
+      justify-content: center
+
+    p
+      color: v.$text-basic
+
+    div:first-child
+      border-right: 1px solid #cccccc42
+
+  .loader
+    display: flex
+    align-content: center
+    justify-content: center
+    width: 120px

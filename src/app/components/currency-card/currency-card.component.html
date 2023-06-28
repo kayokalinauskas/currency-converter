@@ -1,0 +1,40 @@
+<div class="card" *ngFor="let currency of currencies">
+  <h3 class="card-header">{{ currency.title }}</h3>
+
+  <img
+    src="../../../assets/images/loader.svg"
+    class="loader"
+    *ngIf="isLoading"
+  />
+  <div class="error-div">
+    <p *ngIf="!isLoading && errorMessage">{{ errorMessage }}</p>
+    <button *ngIf="!isLoading && errorMessage" (click)="reload()">
+      RECARREGAR
+    </button>
+  </div>
+  <h1
+    *ngIf="!isLoading && !errorMessage"
+    class="card-body"
+    [ngStyle]="
+      currency.price <= 1
+        ? { color: '#DD4B4B' }
+        : currency.price > 5
+        ? { color: '#3684CB' }
+        : { color: '#3C7649' }
+    "
+  >
+    {{
+      currency.price | currency : "BRL" : "symbol-narrow" : "1.2-2" : "pt-BR"
+    }}
+  </h1>
+  <div *ngIf="!isLoading && !errorMessage" class="card-footer">
+    <div>
+      <label>Variação (%)</label>
+      <p>{{ currency.pctChange | number : "1.2-4" }}</p>
+    </div>
+    <div>
+      <label>Atualizado</label>
+      <p>{{ currency.lastUpdated | date : "mediumTime" }}</p>
+    </div>
+  </div>
+</div>

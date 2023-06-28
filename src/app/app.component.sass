@@ -1,0 +1,18 @@
+@use '/src/app/utils/variables' as v
+
+.main-container
+  display: flex
+  flex-flow: column
+  height: 100%
+
+  .card-container
+    flex: 1 1 auto
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: row
+    background-color: v.$app-background
+
+  @media screen and (max-width: 900px)
+    .card-container
+      flex-direction: column
