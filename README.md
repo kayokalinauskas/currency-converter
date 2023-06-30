@@ -3,6 +3,10 @@
 Este é um projeto em Angular que implementa um conversor de moedas em Dolares Canadenses, Peso Argentino e Libras Esterlinas em Real. Os dados são atualizados a cada 3 minutos e armazenados em cache.
 O aplicativo trás o valor da moeda em relação ao real, a variação em porcentagem e a hora da atualização.
 
+![alt text](https://i.imgur.com/MhFMkWJ.png)
+
+
+
 ## :clipboard: Instruções de Uso
 
 Siga as instruções abaixo para configurar e executar o projeto em sua máquina local.
