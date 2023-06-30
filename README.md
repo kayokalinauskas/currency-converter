@@ -46,7 +46,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 Clone este repositório para o diretório de sua escolha em seu sistema local:
 
 ```bash
-git clone https://github.com/seu-usuario/currency-converter.git
+git clone https://github.com/kayokalinauskas/currency-converter.git
 ```
 
 ### :wrench: Passo 2: Instalar as dependências
