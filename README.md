@@ -5,7 +5,7 @@
 
 <p>Demo: https://kayokalinauskas.github.io/currency-converter/</p>
 
-![alt text](https://i.imgur.com/MhFMkWJ.png)
+![alt text](https://i.imgur.com/ApMkMDJ.png)
 
 ## :heavy_check_mark: Requisitos Atendidos
 
