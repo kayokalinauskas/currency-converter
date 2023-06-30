@@ -1,7 +1,7 @@
 # Currency Converter
 
 <p>Este é um projeto em Angular que implementa um conversor de Dolares Canadenses, Peso Argentino e Libras Esterlinas em Real, os dados são atualizados a cada 3 minutos e armazenados em cache.</p>
-<p>O aplicativo trás o valor da moeda em relação ao real, a variação em porcentagem e a hora da atualização.</p>
+<p>O aplicativo trás o valor das moedas em relação ao real, a variação em porcentagem e a hora da atualização.</p>
 
 <p>Demo: https://kayokalinauskas.github.io/currency-converter/</p>
 
