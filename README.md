@@ -1,11 +1,31 @@
 # Currency Converter
 
-Este é um projeto em Angular que implementa um conversor de moedas em Dolares Canadenses, Peso Argentino e Libras Esterlinas em Real. Os dados são atualizados a cada 3 minutos e armazenados em cache.
-O aplicativo trás o valor da moeda em relação ao real, a variação em porcentagem e a hora da atualização.
+<p>Este é um projeto em Angular que implementa um conversor de moedas em Dolares Canadenses, Peso Argentino e Libras Esterlinas em Real, os dados são atualizados a cada 3 minutos e armazenados em cache.</p>
+<p>O aplicativo trás o valor da moeda em relação ao real, a variação em porcentagem e a hora da atualização.</p>
 
 ![alt text](https://i.imgur.com/MhFMkWJ.png)
 
+## :heavy_check_mark: Requisitos Atendidos
 
+- :white_check_mark: Mostra a quantia equivalente de uma unidade das moedas Dólar Canadense (CAD), Peso Argentino (ARS) e Libra Esterlina (GBP) em Real Brasileiro (BRL).
+
+- :white_check_mark: Exibe a variação em porcentagem.
+
+- :white_check_mark: Exibe a hora da atualização.
+
+- :white_check_mark: Valores menores ou iguais a R$1,00 são exibidos em vermelho.
+  
+- :white_check_mark: Valores maiores que R$1,00 e menores ou iguais a R$5,00 são exibidos em verde.
+
+- :white_check_mark: Valores maiores que R$5,00 são exibidos em azul.
+
+- :white_check_mark: As informações são cacheadas no front-end por 3 minutos.
+
+- :white_check_mark: As informações são atualizadas automaticamente a cada 3 minutos.
+
+- :white_check_mark: O header da aplicação permanece fixo no topo, mesmo ao rolar a página.
+
+- :white_check_mark: Responsividade.
 
 ## :clipboard: Instruções de Uso
 
