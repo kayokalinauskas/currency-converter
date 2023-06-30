@@ -1,27 +1,46 @@
-# CurrencyConverter
+# Currency Converter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+Este é um projeto em Angular que implementa um conversor de moedas em Dolares Canadenses, Peso Argentino e Libras Esterlinas em Real. Os dados são atualizados a cada 3 minutos e armazenados em cache.
+O aplicativo trás o valor da moeda em relação ao real, a variação em porcentagem e a hora da atualização.
 
-## Development server
+## :clipboard: Instruções de Uso
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Siga as instruções abaixo para configurar e executar o projeto em sua máquina local.
 
-## Code scaffolding
+### :computer: Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
-## Build
+- Node.js (versão 18.12 ou superior)
+- Angular CLI (versão 16.1.1 ou superior)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### :arrow_down: Passo 1: Clonar o repositório
 
-## Running unit tests
+Clone este repositório para o diretório de sua escolha em seu sistema local:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone https://github.com/seu-usuario/currency-converter.git
+```
 
-## Running end-to-end tests
+### :wrench: Passo 2: Instalar as dependências
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências:
 
-## Further help
+```bash
+cd currency-converter
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### :rocket: Passo 3: Executar o aplicativo
+
+No diretório do projeto, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+
+```bash
+ng serve
+```
+
+Após o build ser concluído, você poderá acessar o aplicativo em seu navegador através do endereço `http://localhost:4200/`.
+
+## :page_with_curl: Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
